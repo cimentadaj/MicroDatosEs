@@ -39,7 +39,7 @@ censo2001 <- function(file) {
                      ## TODO: I still need to add the variable codings
                      ## I'm lazy since they provide it in word and it's
                      # difficult to parse.
-                     ## system.file( "metadata", "censo_2010_mdat2.txt", package = "MicroDatosEs" ),
+                     system.file( "metadata", "censo_2010_mdat2.txt", package = "MicroDatosEs" ),
                      fileEncoding = "UTF-8")
 }
 
