@@ -11,7 +11,8 @@ It is intended mostly for microdata which is generated periodically with the sam
 ## Covered datasets
 
 * **EPA** (Encuesta de población activa)  
-* **Census (2011)**
+* **Census 2011**
+* **Census 2001** (incomplete; still missing the second metadata file for labelling columns)
 * **EES** (Encuesta de estructura salarial)
 * **Mortality** (Annual deaths in Spain): unfortunately, public microdata does not include the cause of death.
 * **EPF** (Encuesta de presupuestos familiares)
@@ -20,7 +21,6 @@ It is intended mostly for microdata which is generated periodically with the sam
 ## Use cases and examples
 
 * [Un paseo por el paquete MicroDatosEs (y la EPA, de nuevo)](https://www.datanalytics.com/2012/08/06/un-paseo-por-el-paquete-microdatoses-y-la-epa-de-nuevo/)
-
 
 ## Help wanted
 
