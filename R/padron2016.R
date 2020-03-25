@@ -17,7 +17,7 @@
 #' raw <- epf.2011.gastos("sample_padron_2016.txt")
 #' summary(raw)
 #' }
-#' @seealso \code{\link[read_fwf]{readr}} to read fixed width files.
+#' @seealso \code{\link[vroom]{vroom_fwf}} to read fixed width files.
 
 
 ###################################################################
@@ -34,7 +34,7 @@ padron2016 <- function(file){
                        stringsAsFactors = FALSE)
   
   suppressMessages(
-    dat <- read_fwf(file, fwf_widths(mdat.1$width, col_names = mdat.1$var))
+    dat <- vroom::vroom_fwf(file, fwf_widths(mdat.1$width, col_names = mdat.1$var))
   )
   
   foo <- function(prov, mun){

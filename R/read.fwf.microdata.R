@@ -5,6 +5,7 @@
 # Changes:
 #   20160806: changed workhorse to readr::read_fwf
 #   20170427: some microdata files are read outside this function
+#   20200324: changed workhorse to vroom::vroom_fwf for fastering reading
 ###################################################################
 ## IMPORTANT: Remember to set the file_path variable to the Microdatos files.
 ## Below is an example of where I put one in my local computer
@@ -24,7 +25,7 @@ read.fwf.microdata <- function(file_path, file.mdat.1, file.mdat.2, fileEncoding
   mdat.2 <- foo(file.mdat.2)
 
   ## read fixed file using mdat1 metadata file
-  ## hides messages by read_fwf
+  ## hides messages by vroom_fwf
   ## 20170427: some microdata files are read outside this function
   if (!is.data.frame(file_path)){
     width_options <- vroom::fwf_widths(mdat.1$width, col_names = mdat.1$var)
@@ -99,7 +100,7 @@ read.fwf.microdata <- function(file_path, file.mdat.1, file.mdat.2, fileEncoding
 ##   mdat.2 <- foo(file.mdat.2)
 
 ##   ## read fixed file using mdat1 metadata file
-##   ## hides messages by read_fwf
+##   ## hides messages by vroom_fwf
 ##   ## 20170427: some microdata files are read outside this function
 ##   if (!is.data.frame(file_path)){
 ##     width_options <- vroom::fwf_widths(mdat.1$width, col_names = mdat.1$var)
