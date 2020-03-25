@@ -1,0 +1,208 @@
+var	start	end	width	descr
+CPRO	1	2	2	Código de provincia
+CMUN	3	5	3	Código o tamaño de municipio
+NSS	6	10	5	Número Secuencial de Sección
+HUECO	11	15	5	Número de hueco
+NORDF	16	19	4	Número final de la persona dentro del hueco
+MNAC	20	21	2	Mes de nacimiento
+ANAC	22	25	4	Año de nacimiento
+EDAD	26	28	3	Edad
+SEXO	29	29	1	Sexo
+NACI	30	32	3	Código país de nacionalidad
+CPRON	33	34	2	Código provincia de nacimiento
+CMUNN	35	37	3	Código o tamaño municipio (o país) de nacimiento
+ECIVIL	38	38	1	Estado civil
+PARENPP	39	40	2	Relación de parentesco con la persona de referencia normalizada
+ESREAL	41	42	2	Nivel de estudios
+TESTUD	43	44	2	Tipo de estudios realizados
+AÑOE	45	48	4	Año de llegada a España
+AÑOC	49	52	4	Año de llegada a la Comunidad Autónoma
+AÑOM	53	56	4	Año de llegada al municipio
+CLPRO	57	58	2	Código provincia anterior de residencia
+CLMUNP	59	61	3	Código o tamaño municipio (o país) anterior de residencia
+RES10	62	62	1	Residencia hace 10 años
+CMUN10	63	65	3	Código o tamaño municipio (o país) hace 10 años
+CPROV10	66	67	2	Código provincia hace 10 años
+CONLEN	68	68	1	Conocimiento de la lengua propia
+SITU1	69	70	2	Situación la semana pasada (respuesta primera)
+SITU2	71	72	2	Situación la semana pasada (segunda)
+SITU3	73	74	2	Situación la semana pasada (tercera)
+SITU	75	76	2	Situación preferente
+LUGTE	77	77	1	Lugar de trabajo o estudio
+CLMUNI	78	80	3	Código o tamaño municipio (o país) de trabajo o estudio
+CLPROV	81	82	2	Código provincia de trabajo o estudio
+NVIAJE	83	83	1	Nº de viajes diarios
+MDESP1	84	85	2	Medio de desplazamiento
+MDESP2	86	87	2	Medio de desplazamiento
+TDESP	88	88	1	Tiempo de desplazamiento
+ESCUR1	89	90	2	Estudios en curso
+ESCUR2	91	92	2	Estudios en curso
+ESCUR3	93	94	2	Estudios en curso
+COCUP	95	96	2	Código de ocupación
+SITP	97	97	1	Situación profesional
+COACTI	98	99	2	Código de actividad
+CSE	100	101	2	NA
+TTRAB	102	103	2	Tiempo usual de trabajo
+USO1F	104	104	1	Vivienda, alojamiento o colectivo
+CVIVIF	105	105	1	Clase de vivienda
+CCOLF	106	107	2	Clase de colectivo
+AÑORES	108	111	4	Año llegada a la vivienda
+TENEN	112	112	1	Régimen de tenencia
+RUIDEX	113	113	1	Ruidos exteriores
+CONTA	114	114	1	Contaminación
+LIMP	115	115	1	Poca limpieza en las calles
+COM	116	116	1	Malas comunicaciones
+VERDE	117	117	1	Pocas zonas verdes
+DELIN	118	118	1	Delincuencia en la zona
+SERVI	119	119	1	Falta de servicios
+REF	120	120	1	Refrigeración
+CALE	121	121	1	Calefacción
+COMBUS	122	122	1	Combustible para calefacción
+ALTURA	123	124	2	Altura (en nº de plantas) en la que está la vivienda
+NHAB	125	126	2	Nº de habitaciones
+SUT	127	129	3	Superficie útil
+SVIV	130	130	1	Disponibilidad segunda vivienda
+LOCSV	131	131	1	Localización segunda vivienda
+CMUNSV	132	134	3	Código o tamaño municipio (o país) 2ª vivienda
+CPROSV	135	136	2	Código provincia 2ª vivienda
+DIAÑO	137	139	3	Nº de dias al año de uso de la 2ª vivienda
+VEHIC	140	140	1	Disp. vehiculos a motor (no motos)
+PLANTAS	141	142	2	Número de plantas sobre rasante
+PLANTAB	143	143	1	Número de plantas bajo rasante
+TIPOED	144	144	1	Tipo de edificio
+CONST	145	145	1	Año de construcción
+AÑO	146	149	4	Año exacto
+ESTADO	150	150	1	Estado del edificio
+PROP	151	151	1	Clase de propietario
+ACCESIB	152	152	1	Accesibilidad del edificio
+AGUA	153	153	1	Agua corriente
+RESID	154	154	1	Evacuación de aguas residuales
+PORTE	155	155	1	Portería
+GARAJE	156	156	1	Garaje
+PLAZAS	157	159	3	Número de plazas de garaje
+GAS	160	160	1	Gas
+TELEF	161	161	1	Tendido telefónico
+ACAL	162	162	1	Agua caliente central
+FAM	163	164	2	Número de familia dentro del hogar
+PAD	165	166	2	NORDF del padre
+MAD	167	168	2	NORDF de la madre
+CON	169	170	2	NORDF del cónyuge o pareja
+CNUCF	171	171	1	Condición dentro del núcleo
+TIHI	172	172	1	Tipo de hijo
+FCONANC	173	173	1	Forma de convivencia en personas de 65 años ó más
+FCONADU	174	174	1	Forma de convivencia en personas de 16 a 64 años
+CONPARHIJ	175	175	1	Convivencia con pareja e hijos
+HOM	176	177	2	NORDF del hombre del núcleo
+MUJ	178	179	2	NORDF de la mujer del núcleo
+PP	180	181	2	NORDF de la persona de referencia
+NUCF	182	183	2	Número de núcleo dentro del hogar
+NMIEM	184	187	4	Tamaño del hogar (o número de residentes en colectivos)
+NFAM	188	189	2	Número de familias en el hogar
+NNUCH	190	191	2	Número de núcleos en el hogar
+NGENER	192	192	1	Número de generaciones en el hogar
+EDADGR	193	195	3	Edad mínima de la generación más reciente
+EDADGA	196	198	3	Edad máxima de la generación más antigua
+ESTHOG	199	200	2	Estructura del hogar (definición nueva)
+ESTHOG91	201	202	2	Estructura del hogar (definición de 1991)
+TIPOHOG	203	204	2	Tipo de hogar
+NOCU	205	207	3	Número de ocupados del hogar
+NPARA	208	210	3	Número de parados del hogar
+NPFAM	211	212	2	Número de personas en familia
+NNUCF1	213	214	2	Número de personas en núcleo tipo 1
+NNUCF2	215	216	2	Número de personas en núcleo tipo 2
+NNUCF3	217	218	2	Número de personas en núcleo tipo 3
+NNUCF4	219	220	2	Número de personas en núcleo tipo 4
+NTOTHIJ	221	222	2	Número total de hijos(para cada persona del hogar) en el  hogar
+HM15	223	225	3	Hombres menores de 15
+MM15	226	228	3	Mujeres menores de 15
+H15	229	231	3	Hombres de 15 años
+M15	232	234	3	Mujeres de 15 años
+H1524	235	237	3	Hombres de 15 a 24 años
+M1524	238	240	3	Mujeres de 15 a 24 años
+H2534	241	243	3	Hombres de 25 a 34 años
+M2534	244	246	3	Mujeres de 25 a 34 años
+H3564	247	249	3	Hombres de 35 a 64 años
+M3564	250	252	3	Mujeres de 35 a 64 años
+H6584	253	255	3	Hombres de 65 a 84 años
+M6584	256	258	3	Mujeres de 65 a 84 años
+H85	259	261	3	Hombres de 85 ó más
+M85	262	264	3	Mujeres de 85 o más
+EXTOS	265	267	3	Extranjeros
+EXTAS	268	270	3	Extranjeras
+ESLES	271	273	3	Españoles
+ESLAS	274	276	3	Españolas
+SEXOPP	277	277	1	Sexo
+ANACPP	278	281	4	Año de nacimiento
+EDADPP	282	284	3	Edad
+ECIVILPP	285	285	1	Estado civil
+NACIPP	286	288	3	País de nacionalidad
+CPRONPP	289	290	2	Código provincia de nacimiento
+CMUNNPP	291	293	3	Código o tamaño municipio (o país) de nacimiento
+ESREALPP	294	295	2	Nivel de estudios
+TESTUDPP	296	297	2	Tipo de estudios realizados
+CONLENPP	298	298	1	Conocimiento de la lengua propia
+SITUPP	299	300	2	Situación preferente
+COCUPP	301	302	2	Código de ocupación
+SITPP	303	303	1	Situación profesional
+COACTIPP	304	305	2	Código de actividad
+CSEPP	306	307	2	Condición socioeconómica
+ANACPAD	308	311	4	Año de nacimiento
+EDADPAD	312	314	3	Edad
+ECIVILPAD	315	315	1	Estado civil
+NACIPAD	316	318	3	País de nacionalidad
+CPRONPAD	319	320	2	Código provincia de nacimiento
+CMUNNPAD	321	323	3	Código o tamaño municipio (o país) de nacimiento
+ESREALPAD	324	325	2	Nivel de estudios
+TESTUDPAD	326	327	2	Tipo de estudios realizados
+CONLENPAD	328	328	1	Conocimiento de la lengua propia
+SITUPAD	329	330	2	Situación preferente
+COCUPPAD	331	332	2	Código de ocupación
+SITPPAD	333	333	1	Situación profesional
+COACTIPAD	334	335	2	Código de actividad
+CSEPAD	336	337	2	Condición socioeconómica
+ANACMAD	338	341	4	Año de nacimiento
+EDADMAD	342	344	3	Edad
+ECIVILMAD	345	345	1	Estado civil
+NACIMAD	346	348	3	País de nacionalidad
+CPRONMAD	349	350	2	Código provincia de nacimiento
+CMUNNMAD	351	353	3	Código o tamaño municipio (o país) de nacimiento
+ESREALMAD	354	355	2	Nivel de estudios
+TESTUDMAD	356	357	2	Tipo de estudios realizados
+CONLENMAD	358	358	1	Conocimiento de la lengua propia
+SITUMAD	359	360	2	Situación preferente
+COCUPMAD	361	362	2	Código de ocupación
+SITPMAD	363	363	1	Situación profesional
+COACTIMAD	364	365	2	Código de actividad
+CSEMAD	366	367	2	Condición socioeconómica
+SEXOCON	368	368	1	Sexo
+ANACCON	369	372	4	Año de nacimiento
+EDADCON	373	375	3	Edad
+ECIVILCON	376	376	1	Estado civil
+NACICON	377	379	3	País de nacionalidad
+CPRONCON	380	381	2	Código provincia de nacimiento
+CMUNNCON	382	384	3	Código o tamaño municipio (o país) de nacimiento
+ESREALCON	385	386	2	Nivel de estudios
+TESTUDCON	387	388	2	Tipo de estudios realizados
+CONLENCON	389	389	1	Conocimiento de la lengua propia
+SITUCON	390	391	2	Situación preferente
+COCUPCON	392	393	2	Código de ocupación
+SITPCON	394	394	1	Situación profesional
+COACTICON	395	396	2	Código de actividad
+CSECON	397	398	2	Condición socioeconómica
+TNUCF	399	399	1	Tipo de núcleo
+TAMNUCF	400	401	2	Tamaño del núcleo
+NHIJO	402	403	2	Número de hijos
+NHIJNUC04	404	405	2	Número de hijos entre 0 y 4 años
+NHIJNUC59	406	407	2	Número de hijos entre 5 y 9 años
+NHIJNUC1014	408	409	2	Número de hijos entre 10 y 14 años
+NHIJNUC15	410	411	2	Número de hijos de 15 años
+NHIJNUC1519	412	413	2	Número de hijos entre 15 y 19 años
+NHIJNUC2024	414	415	2	Número de hijos entre 20 y 24 años
+NHIJNUC2529	416	417	2	Número de hijos entre 25 y 29 años
+NHIJNUC30	418	419	2	Número de hijos de 30 y más años
+FAMNUM	420	420	1	Indicador de familia numerosa
+OCNUC	421	422	2	Número de ocupados en el núcleo
+PANUC	423	424	2	Número de parados en el núcleo
+TIPOPARECIV	425	425	1	Tipo de pareja(de hecho o de derecho)
+TIPOPARSEX	426	426	1	Tipo de pareja(mismo sexo, distinto sexo)
+COMBNACIN	427	427	1	Combinación de nacionalidades en el núcleo
