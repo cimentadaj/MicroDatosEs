@@ -43,6 +43,9 @@ read.fwf.microdata <- function(file_path, file.mdat.1, file.mdat.2, fileEncoding
     
     # happens!
     if (all(is.na(v))) return(v)
+
+    # For censo2001 which I haven't updated the codebook for each variable
+    if (nrow(metadat) == 0) return(v)
     
     # special cases: numeric, etc.
     if (nrow(metadat) == 1 && metadat$tipo != "D") {
