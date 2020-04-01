@@ -1,0 +1,61 @@
+var	start	end	width	descr
+TIPO	1	1	1	Tipo de registro
+PROV	2	3	2	Provincia
+MUN(1)	4	6	3	Municipio
+DC	7	7	1	Digito control
+NVIV2	8	13	6	Número de vivienda
+THOG	14	14	1	Número de hogares en vivienda
+NHOG	15	15	1	Hogar número
+NORD	16	17	2	Número de orden
+PAREN	18	19	2	Relación con la persona principal
+PAREN1	20	20	1	Emparentado con alguien
+NORD1	21	22	2	Número de orden de esa persona
+PARENC	23	23	1	Conyuge o pareja
+NORDC	24	25	2	Número de orden del conyuge
+PARENPM	26	26	1	Padre o madre
+NORDPM	27	28	2	Número de orden padre o madre
+SEXO	29	29	1	Sexo
+MES	30	31	2	Mes de nacimiento
+FECHA	32	34	3	Ano de nacimiento
+NACION	35	35	1	Nacionalidad
+PAISN	36	38	3	País de nacionalidad
+ANNOEX	39	40	2	Año última llegada a Espana
+ECIV	41	41	1	Estado civil
+NACINB	42	42	1	Lugar de nacimiento
+MUNACIN(1)	43	45	3	Municipio de nacimiento
+PRONACIN	46	47	2	Provincia de nacimiento
+RESI90B	48	48	1	Residencia en el año 90
+MUN90	49	51	3	Municipio residencia en el año 90
+PROV90	52	53	2	Provincia residencia en el año 90
+RESI86B	54	54	1	Residencia en el año 86
+MUN86	55	57	3	Municipio residencia en el año 86
+PROV86	58	59	2	Provincia residencia en el año 86
+RES81B	60	60	1	Residencia en el año 81
+MUN81	61	63	3	Municipio residencia en el año 81
+PROV81	64	65	2	Provincia residencia en el año 81
+ANNO	66	67	2	Año de llegada al municipio residencia
+PROCEB	68	68	1	Lugar de procedencia
+MUN10	69	71	3	Municipio de residencia hace 10 años
+PROV10	72	73	2	Provincia de residencia hace 10 años
+ESCUR	74	75	2	Estudios en curso
+ESREAL	76	77	2	Estudios realizados
+HIJOS	78	78	1	Número de hijos
+BODA	79	80	2	Ano de la boda
+RELACT1	81	82	2	Relación con la actividad
+RELACT2	83	84	2	Relación con la actividad
+RELACT3	85	86	2	Relación con la actividad
+PROF	87	88	2	Profesión
+SITU	89	89	1	Situación profesional
+ACT	90	91	2	Actividad
+EDAD	92	94	3	Edad
+COMN	95	96	2	Comarca municipio nacimiento
+COM90	97	98	2	Comaraca municipio residencia año 90
+COM86	99	100	2	Comaraca municipio residencia año 86
+COM81	101	102	2	Comaraca municipio residencia año 81
+COM10	103	104	2	Comaraca municipio residencia hace 10 años
+ACTD	105	105	1	Actividad derivada
+DMAT	106	107	2	Duración matrimonio
+CSE	108	109	2	Condición socioeconómica
+TAMU	110	111	2	Tamaño municipio
+COM	112	113	2	Comarca municipio residencia
+FE	114	120	7	Factor elevación
